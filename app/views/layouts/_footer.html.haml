@@ -1,0 +1,15 @@
+.footer
+  .row.footer-container
+    .col-md-3.download-content
+      .mo-footer-content
+        %p.download-free-app Download our free app
+    .col-xs-12.col-md-7.footer-col-right
+      %nav.mo-footer-content
+        = link_to 'Home', '/'
+        = link_to 'About', page_path('about'), class: 'divider'
+      .col-md-7.hidden-xs
+        .mo-copyright
+          == © 2018-#{Date.today.year} Snap Trends. All rights reserved.
+      .col-xs-12.visible-xs
+        .mo-copyright
+          == © 2018-#{Date.today.year} Snap Trends. All rights reserved.
